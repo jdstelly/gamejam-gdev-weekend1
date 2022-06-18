@@ -295,6 +295,303 @@
         "name": "assets\\Strawberry.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dispenser-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dispenser-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_dispenser-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_dispenser-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_dispenser-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_dispenser-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_dispenser_cover-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_dispenser_cover-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "paper_towels-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "paper_towels-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_dispenser-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_dispenser-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lever-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lever-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lever-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lever-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lever-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lever-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sign-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sign-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_door-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_door-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_door-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_door-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "proto_bathroom_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "proto_bathroom_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bkg_door-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkg_door-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "towel_single-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "towel_single-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "source-paw.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "source-paw.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "source-paw-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "source-paw-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lever-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lever-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lever-down-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lever-down-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lever-down-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lever-down-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lever-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lever-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "dispense.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06201816474346722,\\\"sustainPunch\\\":90,\\\"decay\\\":0,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":395.274610014996,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":3300,\\\"repeatFrequency\\\":73.2,\\\"frequencyJump1Onset\\\":45,\\\"frequencyJump1Amount\\\":95,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":950,\\\"vibratoFrequency\\\":214,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":9600,\\\"compression\\\":1.5,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"dispense\"}}",
+        "name": "dispense.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "lever_reset.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 16\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.07631413512583318,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1500,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":98.7,\\\"frequencyJump1Onset\\\":55,\\\"frequencyJump1Amount\\\":90,\\\"frequencyJump2Onset\\\":80,\\\"frequencyJump2Amount\\\":85,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"tangent\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":530,\\\"vibratoFrequency\\\":422,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":6,\\\"bitCrushSweep\\\":-1,\\\"lowPassCutoff\\\":800,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":3900,\\\"highPassCutoffSweep\\\":7800,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"lever_reset\"}}",
+        "name": "lever_reset.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "floor-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "towel_single-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "towel_single-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "proto-towel-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "proto-towel-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "towel_phys_temp-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "towel_phys_temp-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "phys_wall-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "phys_wall-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dryer_busy-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dryer_busy-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dryer_phys_temp-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dryer_phys_temp-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "airdry.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 17\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":1.1286344518868061,\\\"sustain\\\":4,\\\"sustainPunch\\\":0,\\\"decay\\\":0,\\\"tremoloDepth\\\":100,\\\"tremoloFrequency\\\":956,\\\"frequency\\\":9999.999999999698,\\\"frequencySweep\\\":2708.399776063091,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":69,\\\"frequencyJump1Onset\\\":85,\\\"frequencyJump1Amount\\\":40,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":10,\\\"flangerOffset\\\":38,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3300,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":7100,\\\"highPassCutoffSweep\\\":7500,\\\"compression\\\":1.6,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"airdry\"}}",
+        "name": "airdry.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -339,8 +636,25 @@
         {
           "type": "string",
           "value": "minigame_0_city"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "minigame_1_paper"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "next_game",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "current_game",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -1283,7 +1597,7 @@
                   "parameters": [
                     "text_timer",
                     "=",
-                    "\"transition timer: \" + ToString(TimerElapsedTime(\"transition\"))"
+                    "\"transition timer: \" + ToString(trunc(TimerElapsedTime(\"transition\")))"
                   ]
                 }
               ],
@@ -1311,7 +1625,7 @@
                       "parameters": [
                         "text_debug_tempo",
                         "=",
-                        "\"GAME START! - \" + GlobalVariableString(games[0])"
+                        "\"GAME START! - \" + GlobalVariableString(games[RandomInRange(0,1)])"
                       ]
                     }
                   ]
@@ -1369,15 +1683,59 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "GlobalVariableString(games[0])",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "next_game",
+                        "=",
+                        "GlobalVariableString(games[RandomInRange(0,1)])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "next_game",
+                        "!=",
+                        "GlobalVariableString(current_game)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "current_game",
+                        "=",
+                        "\"next_game\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariableString(next_game)",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2406,7 +2764,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6399999999999999,
+        "zoomFactor": 0.5999999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2949,6 +3307,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2961,9 +3321,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -3013,10 +3371,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -3073,6 +3431,44 @@
                   "parameters": [
                     "bkg_sky",
                     "\"206;156;156\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "UI Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UI_timer",
+                    "=",
+                    "\"TIME REMAINING: \" + ToString(trunc(GlobalVariable(max_game_timer) - TimerElapsedTime(\"minigame\") + 1))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "UI_lives",
+                    "=",
+                    "GlobalVariable(lives) * 16"
                   ]
                 }
               ]
@@ -3239,6 +3635,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3368,44 +3765,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "UI Logic",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "UI_timer",
-                    "=",
-                    "\"TIME REMAINING: \" + ToString(trunc(GlobalVariable(max_game_timer) - TimerElapsedTime(\"minigame\") + 1))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TiledSpriteObject::Width"
-                  },
-                  "parameters": [
-                    "UI_lives",
-                    "=",
-                    "GlobalVariable(lives) * 16"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         }
       ],
       "layers": [
@@ -3451,6 +3810,2031 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "minigame_951_95paper",
+      "name": "minigame_1_paper",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.78,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "lever_reset_time",
+          "type": "number",
+          "value": 0.25
+        },
+        {
+          "folded": true,
+          "name": "dryer_run_time",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "folded": true,
+          "name": "towel_count",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 614,
+          "layer": "",
+          "locked": false,
+          "name": "bkg_bathroom",
+          "persistentUuid": "6fa43298-a464-4cd3-837a-e0b1957755a3",
+          "width": 814,
+          "x": -9,
+          "y": -6,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 171,
+          "layer": "Foreground",
+          "locked": false,
+          "name": "bkg_dispenser",
+          "persistentUuid": "14e6e76d-235b-4fcc-9e5e-7247761d95bd",
+          "width": 129,
+          "x": 133,
+          "y": 181,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3,
+          "layer": "Foreground",
+          "locked": false,
+          "name": "paper_towels",
+          "persistentUuid": "8afadbca-cfa0-4c2e-9b36-140b11ff15c9",
+          "width": 116,
+          "x": 140,
+          "y": 298,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "locked": false,
+          "name": "lever",
+          "persistentUuid": "abcbdbff-951b-4eeb-845a-add0211ff65a",
+          "width": 0,
+          "x": 202,
+          "y": 291,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 307,
+          "layer": "",
+          "locked": false,
+          "name": "sign",
+          "persistentUuid": "a3fd6fe4-0b8c-4048-95a6-701204597b7c",
+          "width": 329,
+          "x": 226,
+          "y": 120,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "locked": false,
+          "name": "text_sign",
+          "persistentUuid": "699c6ac7-7eb7-4a77-88cd-f9280362f3cc",
+          "width": 78,
+          "x": 367,
+          "y": 236,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_sign_1",
+          "persistentUuid": "990a5b6a-6625-4c54-be42-3e42d633642d",
+          "width": 0,
+          "x": 319,
+          "y": 263,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 366,
+          "layer": "",
+          "locked": false,
+          "name": "bkg_door",
+          "persistentUuid": "d5c3d693-1829-40ee-b548-f7c548aeb4d2",
+          "width": 232,
+          "x": 537,
+          "y": 178,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Player",
+          "locked": false,
+          "name": "paw",
+          "persistentUuid": "a4c46797-de12-40a6-86e6-1e55e7ad05b1",
+          "width": 0,
+          "x": 118.31309509277344,
+          "y": 438.34149169921875,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 7,
+          "layer": "",
+          "locked": false,
+          "name": "phys_floor",
+          "persistentUuid": "c0bbfa1f-6042-4dd8-8faf-993b7338e041",
+          "width": 861,
+          "x": -44,
+          "y": 580,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "phys_wall",
+          "persistentUuid": "f11d3a8b-9a0a-4027-bbcd-4288f25fa27c",
+          "width": 0,
+          "x": -6,
+          "y": -45,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "phys_wall",
+          "persistentUuid": "1b7356cc-2225-46c4-bf8f-eb925063cd4f",
+          "width": 0,
+          "x": 794,
+          "y": -50,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 7,
+          "layer": "",
+          "locked": false,
+          "name": "phys_floor",
+          "persistentUuid": "9911bd67-d716-4a28-9b0f-28f5d884084c",
+          "width": 861,
+          "x": -17,
+          "y": -8,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "towel_static",
+          "persistentUuid": "a010b9a3-72c7-44c5-9f74-5b85140726dd",
+          "width": 0,
+          "x": 195.64047241210938,
+          "y": 316.269775390625,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 226,
+          "layer": "",
+          "locked": false,
+          "name": "dryer",
+          "persistentUuid": "53460350-5b3c-4d6e-bab7-218edf1ad191",
+          "width": 242,
+          "x": 264,
+          "y": 338,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_dryer",
+          "persistentUuid": "28bc9f15-a7cb-4cdb-92f6-2734fd80757f",
+          "width": 0,
+          "x": 343,
+          "y": 407,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Player",
+          "locked": false,
+          "name": "UI_timer",
+          "persistentUuid": "79960af7-23ad-4583-80a6-c3fab2a8dbb6",
+          "width": 0,
+          "x": 242,
+          "y": 30,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "Player",
+          "locked": false,
+          "name": "UI_lives",
+          "persistentUuid": "ae0fca41-f5d4-42b9-9c12-e39e73810b28",
+          "width": 17,
+          "x": 317,
+          "y": 70,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "bkg_dispenser",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bkg_dispenser",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bkg_dispenser-1-1.png",
+                      "points": [
+                        {
+                          "name": "spawn_towel",
+                          "x": 76.5,
+                          "y": 203.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bkg_bathroom",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bathroom",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "proto_bathroom_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 4,
+          "name": "paper_towels",
+          "tags": "",
+          "texture": "paper_towels-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "lever",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "lever_actuated",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "lever_broken",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "lever-up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lever-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.374115943908691,
+                            "y": 8.408706665039062
+                          },
+                          {
+                            "x": 17.562795639038086,
+                            "y": 8.666568756103516
+                          },
+                          {
+                            "x": 21.946443557739258,
+                            "y": 14.597386360168457
+                          },
+                          {
+                            "x": 19.883548736572266,
+                            "y": 24.653989791870117
+                          },
+                          {
+                            "x": 10.858392715454102,
+                            "y": 25.169713973999023
+                          },
+                          {
+                            "x": 6.216882705688477,
+                            "y": 20.012479782104492
+                          },
+                          {
+                            "x": 6.990467548370361,
+                            "y": 11.760908126831055
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "lever-down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "lever-down-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 23.525371551513672,
+                            "y": 16.109548568725586
+                          },
+                          {
+                            "x": 24.51414680480957,
+                            "y": 48.17415237426758
+                          },
+                          {
+                            "x": 19.883548736572266,
+                            "y": 53.53449249267578
+                          },
+                          {
+                            "x": 11.631977081298828,
+                            "y": 54.82380294799805
+                          },
+                          {
+                            "x": 7.563697338104248,
+                            "y": 50.57546615600586
+                          },
+                          {
+                            "x": 7.563697338104248,
+                            "y": 15.968295097351074
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "sign",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sign-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_sign",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "OBEY:",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 250,
+            "g": 216,
+            "r": 247
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_sign_1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ONE (1) paper towel \n     per patron!",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 253,
+            "g": 205,
+            "r": 249
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "bkg_door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bkg_door",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bkg_door-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "towel_single",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 55,
+              "shapeDimensionB": 48,
+              "shapeOffsetX": 2,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 0.1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "towel_single",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "towel_single-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 69.6404800415039,
+                        "y": 34.269775390625
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 67.66761016845703,
+                        "y": 61.88992691040039
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43,
+                            "y": 39.5
+                          },
+                          {
+                            "x": 98,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 91,
+                            "y": 90.5
+                          },
+                          {
+                            "x": 33,
+                            "y": 88.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "towel_static",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "towel_static",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "towel_single-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 69.6404800415039,
+                        "y": 34.269775390625
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 67.66761016845703,
+                        "y": 61.88992691040039
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 43,
+                            "y": 39.5
+                          },
+                          {
+                            "x": 98,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 91,
+                            "y": 90.5
+                          },
+                          {
+                            "x": 33,
+                            "y": 88.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "paw",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "paw",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "source-paw-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 59.31309127807617,
+                        "y": 45.341487884521484
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 42.01749038696289,
+                            "y": 18.014446258544922
+                          },
+                          {
+                            "x": 52.740760803222656,
+                            "y": 14.2094144821167
+                          },
+                          {
+                            "x": 63.46403121948242,
+                            "y": 18.014446258544922
+                          },
+                          {
+                            "x": 74.53321838378906,
+                            "y": 27.354068756103516
+                          },
+                          {
+                            "x": 75.22503662109375,
+                            "y": 45.341487884521484
+                          },
+                          {
+                            "x": 41.67158126831055,
+                            "y": 53.643375396728516
+                          },
+                          {
+                            "x": 36.13698959350586,
+                            "y": 40.498722076416016
+                          },
+                          {
+                            "x": 33.023780822753906,
+                            "y": 27.008155822753906
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "phys_floor",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "floor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "floor-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "phys_wall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "phys_wall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "phys_wall-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "dryer",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "dryer_active",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "dryer_broken",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 44,
+              "shapeDimensionB": 23,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": -30,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "dryer_ready",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.68248748779297,
+                            "y": 10.251670837402344
+                          },
+                          {
+                            "x": 55.09129333496094,
+                            "y": 10.251670837402344
+                          },
+                          {
+                            "x": 55.09129333496094,
+                            "y": 18.264249801635742
+                          },
+                          {
+                            "x": 39.68248748779297,
+                            "y": 17.956073760986328
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "dryer_busy",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dryer_busy-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.68248748779297,
+                            "y": 10.251670837402344
+                          },
+                          {
+                            "x": 55.09129333496094,
+                            "y": 10.251670837402344
+                          },
+                          {
+                            "x": 55.09129333496094,
+                            "y": 18.264249801635742
+                          },
+                          {
+                            "x": 39.68248748779297,
+                            "y": 17.956073760986328
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_dryer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "DryBoy 500",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 212,
+            "g": 162,
+            "r": 204
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "UI_timer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "TIME REMAINING: -1",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "UI_lives",
+          "tags": "",
+          "texture": "assets\\Strawberry.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Scene Setup",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "towel_count",
+                    "=",
+                    "10 + (GlobalVariable(round) * 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"minigame\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "UI Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UI_timer",
+                    "=",
+                    "\"TIME REMAINING: \" + ToString(trunc(GlobalVariable(max_game_timer) - TimerElapsedTime(\"minigame\") + 1))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "UI_lives",
+                    "=",
+                    "GlobalVariable(lives) * 16"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Game Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "paw",
+                    "=",
+                    "MouseX()",
+                    "=",
+                    "MouseY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "paper_towels",
+                    "=",
+                    "-Variable(towel_count) * 2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "paw",
+                    "lever",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Animation"
+                  },
+                  "parameters": [
+                    "lever",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "lever",
+                    "lever_actuated",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "paw",
+                    "towel_single",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "lever",
+                    "lever_actuated",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "lever",
+                    "lever_actuated",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "lever",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "lever",
+                        "\"reset_time\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "dispense.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "towel_count",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "towel_count",
+                            "-",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "towel_single",
+                            "bkg_dispenser.PointX(\"spawn_towel\")",
+                            "bkg_dispenser.PointY(\"spawn_towel\")",
+                            "\"Foreground\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::ApplyForce"
+                          },
+                          "parameters": [
+                            "towel_single",
+                            "Physics2",
+                            "RandomInRange(-10,10)",
+                            "RandomInRange(-25,10)",
+                            "towel_single.PointX(\"Center\")",
+                            "towel_single.PointY(\"Center\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeLayer"
+                          },
+                          "parameters": [
+                            "towel_static",
+                            "\"Hidden\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "lever",
+                        "\"reset_time\"",
+                        ">=",
+                        "Variable(lever_reset_time)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "paw",
+                        "lever",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "lever",
+                        "lever_actuated",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "lever",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "lever_reset.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "towel_count",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeLayer"
+                          },
+                          "parameters": [
+                            "towel_static",
+                            "\"Base\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "paw",
+                        "dryer",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "towel_single",
+                        "dryer",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "dryer",
+                    "dryer_active",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "dryer",
+                    "dryer_active",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "dryer",
+                    "dryer_active",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "\"run_time\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "airdry.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "\"run_time\"",
+                        "<=",
+                        "Variable(dryer_run_time)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyForce"
+                      },
+                      "parameters": [
+                        "towel_single",
+                        "Physics2",
+                        "0",
+                        "-3",
+                        "towel_single.PointX(\"Center\") - 24",
+                        "towel_single.PointY(\"Center\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "\"run_time\"",
+                        ">=",
+                        "Variable(dryer_run_time) + 5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "dryer_active",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "dryer",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"minigame\"",
+                    ">=",
+                    "GlobalVariable(max_game_timer)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "towel_count",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "lives",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"transition\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "towel_count",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"transition\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8021672,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 8568216,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Hidden",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8316592,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 7997704,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Foreground",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 35,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 8568216,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Player",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
         }
       ]
     }
