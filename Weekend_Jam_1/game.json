@@ -89,6 +89,28 @@
         "metadata": "",
         "name": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Gray Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Background/tiled_Gray Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -100,8 +122,609 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "main_95menu",
+      "name": "main_menu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7599999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "active_scene",
+          "type": "string",
+          "value": "\"menu\""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 613,
+          "layer": "",
+          "locked": false,
+          "name": "bkg_menu",
+          "persistentUuid": "bebb8121-6614-4bba-aeb0-55ae31da65e1",
+          "width": 809,
+          "x": -2,
+          "y": -5,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "btn_credits",
+          "persistentUuid": "914077b6-ad92-4a10-8224-d678afc22a7a",
+          "width": 0,
+          "x": 314,
+          "y": 362,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Mochi_menu",
+          "persistentUuid": "2813de54-0372-46db-9938-0656543c6802",
+          "width": 0,
+          "x": 82,
+          "y": 181,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "btn_play",
+          "persistentUuid": "7d20f58c-2a9b-451d-a47a-e04c2bf2ebab",
+          "width": 0,
+          "x": 342,
+          "y": 253,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "title",
+          "persistentUuid": "a7cf4e5d-3f95-4c93-b060-dd65643dc51c",
+          "width": 0,
+          "x": 234,
+          "y": 77,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "d8ddc8b7871d9805d2eb5ad66033d6a952acc960bf8e4ad7e56a147d8feb5ebf",
+          "height": 128,
+          "name": "bkg_menu",
+          "tags": "",
+          "texture": "tiled_Pink Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Pixelate",
+              "name": "Effect",
+              "doubleParameters": {
+                "size": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "btn_credits",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Mochi_menu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "btn_play",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Play",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mochi Time",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Main Menu",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Scrolling Background",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "bkg_menu",
+                    "+",
+                    "-60 * TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btn_play",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Scale"
+                  },
+                  "parameters": [
+                    "btn_play",
+                    "=",
+                    "1.1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"intro\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btn_play",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Scale"
+                  },
+                  "parameters": [
+                    "btn_play",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btn_credits",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Scale"
+                  },
+                  "parameters": [
+                    "btn_credits",
+                    "=",
+                    "1.1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"credits\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btn_credits",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Scale"
+                  },
+                  "parameters": [
+                    "btn_credits",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "transition",
+      "name": "transition",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6599999999999997,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 616,
+          "layer": "",
+          "locked": false,
+          "name": "bkg_transition",
+          "persistentUuid": "126c224e-8916-4dc8-9a21-c131369c647d",
+          "width": 813,
+          "x": -6,
+          "y": -7,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "d8ddc8b7871d9805d2eb5ad66033d6a952acc960bf8e4ad7e56a147d8feb5ebf",
+          "height": 128,
+          "name": "bkg_transition",
+          "tags": "",
+          "texture": "tiled_Pink Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "ColorReplace",
+              "name": "Effect",
+              "doubleParameters": {
+                "epsilon": 0.4
+              },
+              "stringParameters": {
+                "newColor": "187;194;47",
+                "originalColor": "227;160;233"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "bkg_transition",
+                "+",
+                "120 * TimeDelta()"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 11384200,
+          "ambientLightColorG": 16777216,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "credits",
+      "name": "credits",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -129,14 +752,114 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 613,
+          "height": 604,
           "layer": "",
           "locked": false,
-          "name": "PinkBackground",
-          "persistentUuid": "bebb8121-6614-4bba-aeb0-55ae31da65e1",
-          "width": 809,
-          "x": -3,
-          "y": -6,
+          "name": "GrayBackground",
+          "persistentUuid": "e99c004a-f287-43b7-b7e9-316fef020dc9",
+          "width": 804,
+          "x": -2,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "87e6c3d645e02e5f14df66687f129bcefed631f82a8d4e2750164d2e30aa0fc9",
+          "height": 128,
+          "name": "GrayBackground",
+          "tags": "",
+          "texture": "tiled_Gray Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "ColorReplace",
+              "name": "Effect",
+              "doubleParameters": {
+                "epsilon": 0.4
+              },
+              "stringParameters": {
+                "newColor": "19;19;19",
+                "originalColor": "235;231;231"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 12032776,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "intro",
+      "name": "intro",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7399999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 617,
+          "layer": "",
+          "locked": false,
+          "name": "bkg_intro",
+          "persistentUuid": "aab16588-bbc1-49aa-b063-def928919c7e",
+          "width": 817,
+          "x": -4,
+          "y": -10,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -148,12 +871,28 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Play",
-          "persistentUuid": "3cf28b03-ebf3-4a58-b279-f182e24dca00",
+          "name": "Mochi",
+          "persistentUuid": "00e5b0ca-a027-43e9-9529-f43a35ddce45",
           "width": 0,
-          "x": 337,
-          "y": 228,
+          "x": 419,
+          "y": 79,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "layer": "",
+          "locked": false,
+          "name": "text_intro_0",
+          "persistentUuid": "da2ba667-3146-4892-b3f8-7f0dfc22a0ae",
+          "width": 506,
+          "x": 226,
+          "y": 28,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -164,12 +903,92 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Credits",
-          "persistentUuid": "914077b6-ad92-4a10-8224-d678afc22a7a",
+          "name": "text_intro_1",
+          "persistentUuid": "8a4d3df9-d320-42ff-b187-d7f9d4b0f01e",
           "width": 0,
-          "x": 315,
-          "y": 423,
-          "zOrder": 3,
+          "x": 205,
+          "y": 127,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_intro_2",
+          "persistentUuid": "fdf0f7da-af9b-4b70-b6a1-aaf337143fcd",
+          "width": 0,
+          "x": 87,
+          "y": 246,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_intro_3",
+          "persistentUuid": "a6d2da47-a99a-4151-b910-ad7c4b26538d",
+          "width": 0,
+          "x": 80,
+          "y": 295,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_intro_4",
+          "persistentUuid": "8aa0a5be-c9e5-4cca-8594-4293f3768194",
+          "width": 0,
+          "x": 77,
+          "y": 355,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_intro_5",
+          "persistentUuid": "35e0e4f7-fe40-41fb-b256-a4e89ce78df0",
+          "width": 0,
+          "x": 77,
+          "y": 416,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "btn_start_game",
+          "persistentUuid": "80b3bf61-b6b5-4fa8-95f6-9c94f776b336",
+          "width": 0,
+          "x": 239,
+          "y": 513,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -177,36 +996,51 @@
       ],
       "objects": [
         {
-          "assetStoreId": "c38dafef3b324b20cb46d73bda03ed7228f6e4600c9cfb1da8ed9269044d67a0",
-          "name": "Play",
+          "assetStoreId": "d8ddc8b7871d9805d2eb5ad66033d6a952acc960bf8e4ad7e56a147d8feb5ebf",
+          "height": 128,
+          "name": "bkg_intro",
+          "tags": "",
+          "texture": "tiled_Pink Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "ColorReplace",
+              "name": "Effect",
+              "doubleParameters": {
+                "epsilon": 0.4
+              },
+              "stringParameters": {
+                "newColor": "95;185;214",
+                "originalColor": "202;139;207"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Mochi",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [
-            {
-              "effectType": "Pixelate",
-              "name": "Effect",
-              "doubleParameters": {
-                "size": 3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "-1",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Play.png",
+                      "image": "-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -228,32 +1062,10 @@
           ]
         },
         {
-          "assetStoreId": "d8ddc8b7871d9805d2eb5ad66033d6a952acc960bf8e4ad7e56a147d8feb5ebf",
-          "height": 128,
-          "name": "PinkBackground",
-          "tags": "",
-          "texture": "tiled_Pink Background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Pixelate",
-              "name": "Effect",
-              "doubleParameters": {
-                "size": 3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": []
-        },
-        {
           "assetStoreId": "",
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "Credits",
+          "name": "text_intro_0",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -261,9 +1073,135 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Credits",
+          "string": "Welcome to Mochi Time! ",
           "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
-          "characterSize": 60,
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_intro_1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "This is Mochi.. ",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_intro_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "..and he's very excited that you decided to play with him!",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_intro_3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Unfortunately, so did a lot of other people,\nso his time is very limited.",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_intro_4",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "He only has time to play a few mini-games with you,\nand each mini-game will only last a few seconds.",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_intro_5",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "He also doesn't have time to explain any of it to you,\nbut figuring it out is half the fun!",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "btn_start_game",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Click here to start!",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 45,
           "color": {
             "b": 255,
             "g": 255,
@@ -281,9 +1219,94 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "PinkBackground",
+                "bkg_intro",
                 "+",
-                "-60 * TimeDelta()"
+                "60 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btn_start_game",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Scale"
+              },
+              "parameters": [
+                "btn_start_game",
+                "=",
+                "1.1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"transition\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btn_start_game",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Scale"
+              },
+              "parameters": [
+                "btn_start_game",
+                "=",
+                "1.0"
               ]
             }
           ]
@@ -291,9 +1314,9 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 32,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
+          "ambientLightColorB": 11728248,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
