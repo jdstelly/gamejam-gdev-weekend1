@@ -770,6 +770,12 @@
           "name": "paper_towels_used",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "time_played",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -1960,12 +1966,92 @@
           "height": 604,
           "layer": "",
           "locked": false,
-          "name": "GrayBackground",
+          "name": "bkg_credits",
           "persistentUuid": "e99c004a-f287-43b7-b7e9-316fef020dc9",
           "width": 804,
           "x": -2,
           "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Mochi",
+          "persistentUuid": "286a53fa-18f9-4d65-b708-16fec18477ea",
+          "width": 0,
+          "x": 329,
+          "y": 407,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "credits_0",
+          "persistentUuid": "8d98df03-2794-4e80-8c15-f933a8868958",
+          "width": 0,
+          "x": 284,
+          "y": 14,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "credits_1",
+          "persistentUuid": "18df8749-de9a-4680-8cfa-abdf5e62901f",
+          "width": 0,
+          "x": 237,
+          "y": 96,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "credits_2",
+          "persistentUuid": "a38f5a7c-2c42-466c-8ba7-b96ab944f8de",
+          "width": 0,
+          "x": 104,
+          "y": 169,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "btn_mainmenu",
+          "persistentUuid": "a2ab4583-1293-472c-97e0-ad72bf1bcf93",
+          "width": 0,
+          "x": 35,
+          "y": 27,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1975,7 +2061,7 @@
         {
           "assetStoreId": "87e6c3d645e02e5f14df66687f129bcefed631f82a8d4e2750164d2e30aa0fc9",
           "height": 128,
-          "name": "GrayBackground",
+          "name": "bkg_credits",
           "tags": "",
           "texture": "tiled_Gray Background.png",
           "type": "TiledSpriteObject::TiledSprite",
@@ -1996,9 +2082,188 @@
             }
           ],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Mochi",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mochi_menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "credits_0",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CREDITS",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "credits_1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Thank you to..",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "credits_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "The Creator of the Pixel Adventure set (GDevelop Asset Store)\n\nThe Creator of the RPG Items #2 set (GDevelop Asset Store)\n\nSomepx (somepx.itch.io) for their creation \nof the \"Humble Fonts (Free)\"\n\nAnsimuz (ansimuz.itch.io) for their creation \nof \"Hazy Urban Landscape\"\n\nCreator ID 4f6293 of pixelartmaker.com for their creation\nof \"Background Bathroom HS\"",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "btn_mainmenu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Main Menu",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::YOffset"
+              },
+              "parameters": [
+                "bkg_credits",
+                "+",
+                "(120 * 1 * TimeDelta())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btn_mainmenu",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main_menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 12032776,
@@ -6905,8 +7170,8 @@
           "name": "text_rounds",
           "persistentUuid": "e2fe6efb-2003-414e-bd89-73c59bfc10ac",
           "width": 0,
-          "x": 229,
-          "y": 167,
+          "x": 230,
+          "y": 195,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6937,8 +7202,8 @@
           "name": "text_buildings",
           "persistentUuid": "6ffb9dd3-72c0-4819-b06a-c4154b735a81",
           "width": 0,
-          "x": 229,
-          "y": 205,
+          "x": 230,
+          "y": 237,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -6953,8 +7218,8 @@
           "name": "text_towels",
           "persistentUuid": "8fd96606-3d7d-4c56-ba8b-a159860195f9",
           "width": 0,
-          "x": 228,
-          "y": 243,
+          "x": 229,
+          "y": 276,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -6970,7 +7235,7 @@
           "persistentUuid": "f6078b5d-6545-4f91-b5bd-fe6830bfe67a",
           "width": 0,
           "x": 229,
-          "y": 282,
+          "y": 317,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -6988,6 +7253,22 @@
           "x": 33,
           "y": 178,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_time",
+          "persistentUuid": "07d2c2e9-2845-4549-867b-4007f968b3a8",
+          "width": 0,
+          "x": 230,
+          "y": 157,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7102,6 +7383,27 @@
           "effects": [],
           "behaviors": [],
           "string": "Rounds played: -1",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "text_time",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time invested: -1",
           "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
           "characterSize": 30,
           "color": {
@@ -7239,6 +7541,71 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text_time",
+                "=",
+                "\"Time invested: \" + ToString(GlobalVariable(statistics.time_played))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text_rounds",
+                "=",
+                "\"Rounds played: \" + ToString(GlobalVariable(rounds))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text_buildings",
+                "=",
+                "\"Buildings destroyed: \" + ToString(GlobalVariable(statistics.buildings_destroyed))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text_towels",
+                "=",
+                "\"Paper Towels used: \" + ToString(GlobalVariable(statistics.paper_towels_used))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text_baseball_hits",
+                "=",
+                "\"Home runs made: \" + ToString(GlobalVariable(statistics.home_runs))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -7248,7 +7615,7 @@
               "parameters": [
                 "bkg_gameover",
                 "+",
-                "(120 * 1 * TimeDelta())"
+                "(-120 * 1 * TimeDelta())"
               ]
             },
             {
