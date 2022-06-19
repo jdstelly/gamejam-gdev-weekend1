@@ -2057,6 +2057,24 @@
         "name": "mochi-smash-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "music_mainmenu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music_mainmenu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2167,7 +2185,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -2202,7 +2220,7 @@
             {
               "folded": true,
               "type": "string",
-              "value": "If you think you can't do it, you're right."
+              "value": "If you think you can't do it, you're probably right."
             },
             {
               "type": "string",
@@ -3358,6 +3376,38 @@
                     "\"Hidden\""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "music_mainmenu.wav",
+                        "0",
+                        "yes",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -4209,7 +4259,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -5629,6 +5679,45 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "round",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+                        "0",
+                        "yes",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -6535,7 +6624,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -7720,7 +7809,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -10411,7 +10500,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -10772,8 +10861,8 @@
           "name": "Mochi",
           "persistentUuid": "a0602cb0-6437-47ad-910a-a6e207ca3b8b",
           "width": 0,
-          "x": 388,
-          "y": 435.5,
+          "x": 355.10064697265625,
+          "y": 434.45281982421875,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -13397,7 +13486,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -16724,7 +16813,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -22505,6 +22594,19 @@
                 "Mochi",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "music_mainmenu.wav",
+                "",
+                "",
+                "",
+                ""
               ]
             }
           ]
