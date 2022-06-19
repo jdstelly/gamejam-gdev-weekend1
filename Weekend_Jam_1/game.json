@@ -44,7 +44,9 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "YmTaNr6OpXX8KS0LxryXBfbHTw52"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -2759,6 +2761,78 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "oopsie.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 8\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":0,\\\"decay\\\":0.37,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-2800,\\\"frequencyDeltaSweep\\\":-3700,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"oopsie\"}}",
+        "name": "oopsie.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hurtin_cowboy-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hurtin_cowboy-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "yeehaw.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Powerup 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.14,\\\"sustainPunch\\\":0,\\\"decay\\\":0.37,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1400,\\\"frequencySweep\\\":300,\\\"frequencyDeltaSweep\\\":500,\\\"repeatFrequency\\\":5.7,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":20,\\\"squareDutySweep\\\":-100,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"yeehaw\"}}",
+        "name": "yeehaw.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2862,6 +2936,12 @@
       "name": "last_transition_lives",
       "type": "number",
       "value": 5
+    },
+    {
+      "folded": true,
+      "name": "baseball_accident",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -3070,7 +3150,7 @@
           "persistentUuid": "fa6fdb7d-68e3-4d5e-b9b7-e47080297b05",
           "width": 0,
           "x": 194,
-          "y": 247,
+          "y": 223,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -4548,7 +4628,7 @@
                           "parameters": [
                             "text_flavor",
                             "=",
-                            "\"BLUEBERRY\""
+                            "\" BLUEBERRY\""
                           ]
                         }
                       ]
@@ -6280,6 +6360,120 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "hurtin_cowboy",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hurtin_cowboy-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0.6666666865348816,
+                        "y": 349
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6332,6 +6526,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Graphics",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6922,8 +7117,78 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Mochi",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Mochi",
+                    "=",
+                    "1.75"
+                  ]
+                }
+              ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If an accident occurred on the field..",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "baseball_accident",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Mochi",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Mochi",
+                        "=",
+                        "1.75"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -6949,26 +7214,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "1.75"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "TextObject::String"
@@ -7008,42 +7253,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "1.75"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "TextObject::String"
                       },
                       "parameters": [
                         "text_transition",
                         "=",
                         "VariableString(transition_phrases[RandomInRange(3,5)])"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeAnimationSpeedScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2.0"
                       ]
                     }
                   ]
@@ -7073,26 +7288,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "1.75"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "TextObject::String"
@@ -7127,39 +7322,9 @@
                         ">",
                         "9"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "round",
-                        "<",
-                        "15"
-                      ]
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "1.75"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "TextObject::String"
@@ -7194,29 +7359,18 @@
                         ">=",
                         "15"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "baseball_accident",
+                        "True"
+                      ]
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "Mochi",
-                        "=",
-                        "1.75"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "TextObject::String"
@@ -7280,7 +7434,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "debug stuff for someone clueless",
+              "comment": "debug stuff for someone clueless (me)",
               "comment2": ""
             },
             {
@@ -7723,7 +7877,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8399999999999999,
+        "zoomFactor": 0.8799999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7770,8 +7924,8 @@
           "name": "credits_1",
           "persistentUuid": "18df8749-de9a-4680-8cfa-abdf5e62901f",
           "width": 0,
-          "x": 233,
-          "y": 164,
+          "x": 136,
+          "y": 179,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7786,8 +7940,8 @@
           "name": "credits_2",
           "persistentUuid": "a38f5a7c-2c42-466c-8ba7-b96ab944f8de",
           "width": 0,
-          "x": 122,
-          "y": 214,
+          "x": 75,
+          "y": 243,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7818,8 +7972,8 @@
           "name": "credits_3",
           "persistentUuid": "c5873d86-0a43-49bf-9091-3ecca794af71",
           "width": 0,
-          "x": 122,
-          "y": 84,
+          "x": 170,
+          "y": 104,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -7834,8 +7988,8 @@
           "name": "credits_5",
           "persistentUuid": "c5c56528-73d3-4f83-b5df-8fc8faf6aac0",
           "width": 0,
-          "x": 109,
-          "y": 540,
+          "x": 111,
+          "y": 488,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -7942,7 +8096,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "The Creator of the Pixel Adventure set (GDevelop Asset Store)\n\nThe Creator of the RPG Items #2 set (GDevelop Asset Store)\n\nKenney, Creator of the \"On Screen Controls\" set (GDevelop Asset Store)\n\nSomepx (somepx.itch.io) for their creation \nof \"Humble Fonts (Free)\"\n\nAnsimuz (ansimuz.itch.io) for their creation \nof \"Hazy Urban Landscape\"\n\nCreator ID 4f6293 of pixelartmaker.com for their creation\nof \"Background Bathroom HS\"\n\nCreator ID 0a6805 of pixelartmaker.com for their creation\nof \"mouse\"\n\nDavid Renda of FesliyanStudios.com for the best,\nfree (or paid) soundtrack I could've found (8 Bit Menu, Faster).\n\nAmpermusic for their \"Score\" generated music. Personal license.\n",
+          "string": "-The Creator of the Pixel Adventure set (GDevelop Asset Store)\n-The Creator of the RPG Items #2 set (GDevelop Asset Store)\n-Kenney, Creator of the \"On Screen Controls\" set (GDevelop Asset Store)\n-Somepx (somepx.itch.io) for their creation \nof \"Humble Fonts (Free)\"\n-Ansimuz (ansimuz.itch.io) for their creation \nof \"Hazy Urban Landscape\"\n-Creator ID 4f6293 of pixelartmaker.com for their creation \nof \"Background Bathroom HS\"\n-Creator ID 0a6805 of pixelartmaker.com for their creation \nof \"mouse\"\n-David Renda of FesliyanStudios.com for the best, \nfree (or paid) soundtrack I could've found (8 Bit Menu, Faster).\n-Ampermusic for their \"Score\" generated music. Personal license.\n",
           "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
           "characterSize": 20,
           "color": {
@@ -8988,7 +9142,7 @@
           "behaviors": [],
           "string": "\"Mochi Time\"\nA silly entry by J. Stelly for the GDevelop Weekend Jam #1.\nTheme: Warioware-Like Minigames\nTime Limit: 48 Hours",
           "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
-          "characterSize": 25,
+          "characterSize": 20,
           "color": {
             "b": 255,
             "g": 255,
@@ -14301,7 +14455,7 @@
                   "parameters": [
                     "game_timer",
                     "=",
-                    "12 - ((GlobalVariable(game_tempo)/12) * 7)"
+                    "14 - ((GlobalVariable(game_tempo)/12) * 7)"
                   ]
                 },
                 {
@@ -14333,10 +14487,9 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneVariableAsBoolean"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "victory",
                     ""
                   ]
                 }
@@ -14344,22 +14497,116 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "UI_timer",
+                    "control_space_0",
                     "=",
-                    "\"TIME REMAINING: \" + ToString(trunc(Variable(game_timer) - TimerElapsedTime(\"minigame\")))"
+                    "0"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TiledSpriteObject::Width"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "UI_lives",
+                    "control_right",
                     "=",
-                    "GlobalVariable(lives) * 32"
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_left",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "control_space_1",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "round",
+                    "<=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"minigame\"",
+                    ">=",
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "control_space_1",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_space_0",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_left",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_right",
+                    "=",
+                    "255"
                   ]
                 }
               ]
@@ -14444,6 +14691,42 @@
                     "\"easeOutQuad\"",
                     "2000",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "victory",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UI_timer",
+                    "=",
+                    "\"TIME REMAINING: \" + ToString(trunc(Variable(game_timer) - TimerElapsedTime(\"minigame\")))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "UI_lives",
+                    "=",
+                    "GlobalVariable(lives) * 32"
                   ]
                 }
               ]
@@ -15482,7 +15765,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Time Played",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15556,7 +15838,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15943,7 +16224,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9400000000000002,
+        "zoomFactor": 0.9200000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17898,6 +18179,16 @@
                     "=",
                     "4 - ((GlobalVariable(game_tempo)/12) * 4)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_mouse",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "events": [
@@ -18120,6 +18411,49 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "round",
+                        "<=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "control_mouse",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -19587,7 +19921,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6499999999999995,
+        "zoomFactor": 0.7099999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19721,7 +20055,7 @@
           "name": "UI_lives",
           "persistentUuid": "08ab2505-572d-4843-b9ce-62377efae078",
           "width": 160,
-          "x": 305,
+          "x": 317,
           "y": 0,
           "zOrder": 9,
           "numberProperties": [],
@@ -21232,6 +21566,65 @@
                     "=",
                     "GlobalVariable(lives) * 32"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "control_space_0",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "control_space_1",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "round",
+                        "<=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "control_space_0",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::Opacity"
+                      },
+                      "parameters": [
+                        "control_space_1",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -21247,16 +21640,6 @@
                     "\"minigame\"",
                     ">=",
                     "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "round",
-                    "<=",
-                    "5"
                   ]
                 }
               ],
@@ -21290,11 +21673,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -21628,7 +22006,7 @@
                               "parameters": [
                                 "pitch_type",
                                 "=",
-                                "1"
+                                "5"
                               ]
                             }
                           ]
@@ -21739,7 +22117,7 @@
                               "parameters": [
                                 "pitch_type",
                                 "=",
-                                "RandomInRange(0,2)"
+                                "RandomInRange(1,2)"
                               ]
                             }
                           ]
@@ -23311,32 +23689,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "CollisionNP"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bat",
-                                "baseball",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PosY"
-                              },
-                              "parameters": [
-                                "Mochi",
-                                ">=",
-                                "600"
-                              ]
-                            }
+                          "parameters": [
+                            "bat",
+                            "baseball",
+                            "",
+                            "",
+                            ""
                           ]
                         },
                         {
@@ -23494,6 +23854,61 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "Mochi",
+                            ">=",
+                            "600"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"victory_timer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "yeehaw.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "victory_ball",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "CompareTimer"
                           },
                           "parameters": [
@@ -23600,32 +24015,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "PosY"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bat",
-                                "Mochi",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PosY"
-                              },
-                              "parameters": [
-                                "baseball",
-                                ">=",
-                                "600"
-                              ]
-                            }
+                          "parameters": [
+                            "baseball",
+                            ">=",
+                            "600"
                           ]
                         },
                         {
@@ -23646,6 +24041,72 @@
                             "",
                             "",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "lives",
+                            "-",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"transition\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bat",
+                            "Mochi",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "oopsie.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "baseball_accident",
+                            "True"
                           ]
                         },
                         {
@@ -24066,7 +24527,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7199999999999999,
+        "zoomFactor": 0.92,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26209,6 +26670,25 @@
                 "statistics.home_runs",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "last_transition_lives",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "baseball_accident",
+                "False"
               ]
             },
             {
