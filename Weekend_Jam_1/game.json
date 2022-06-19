@@ -2723,6 +2723,42 @@
         "name": "Mochi-48-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mochicon0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mochicon0-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mochicon0-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mochicon0-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flavor_blocker-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flavor_blocker-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "flavor_chosen.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 6\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":40,\\\"decay\\\":0.3,\\\"tremoloDepth\\\":5,\\\"tremoloFrequency\\\":76,\\\"frequency\\\":9200,\\\"frequencySweep\\\":-1800,\\\"frequencyDeltaSweep\\\":-2200,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.3,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"flavor_chosen\"}}",
+        "name": "flavor_chosen.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2852,7 +2888,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6799999999999997,
+        "zoomFactor": 0.5799999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2883,6 +2919,14 @@
             {
               "type": "string",
               "value": "Life is struggle."
+            },
+            {
+              "type": "string",
+              "value": "Choose discipline over regret."
+            },
+            {
+              "type": "string",
+              "value": "Better to fail than never try."
             }
           ]
         }
@@ -3004,7 +3048,7 @@
           "angle": 0,
           "customSize": true,
           "height": 87,
-          "layer": "",
+          "layer": "Hidden",
           "locked": false,
           "name": "text_support",
           "persistentUuid": "649afa56-8b56-4504-8a53-18b7275bc126",
@@ -3012,6 +3056,38 @@
           "x": 53,
           "y": 349,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_flavor",
+          "persistentUuid": "fa6fdb7d-68e3-4d5e-b9b7-e47080297b05",
+          "width": 0,
+          "x": 194,
+          "y": 247,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 614,
+          "layer": "",
+          "locked": false,
+          "name": "flavor_blocker",
+          "persistentUuid": "b0dc41a0-393a-40a6-9809-15323083adc9",
+          "width": 808,
+          "x": -3,
+          "y": -6,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3678,6 +3754,90 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Mochicon",
+          "tags": "",
+          "texture": "Mochicon0-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "text_flavor",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "STRAWBERRY",
+          "font": "assets\\hf-free-complete\\matchup-pro-v1.1\\MatchupPro.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "flavor_blocker",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "flavor_blocker",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "flavor_blocker-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4023,11 +4183,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeLayer"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "text_support",
-                    "\"Hidden\""
+                    "flavor_blocker",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "text_flavor",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -4270,20 +4441,7 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "buttonPress0.wav",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -4327,6 +4485,16 @@
                             "flavor_set",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "\"STRAWBERRY\""
+                          ]
                         }
                       ]
                     },
@@ -4372,6 +4540,16 @@
                             "flavor_set",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "\"BLUEBERRY\""
+                          ]
                         }
                       ]
                     },
@@ -4417,6 +4595,16 @@
                             "flavor_set",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "\"  BANANA\""
+                          ]
                         }
                       ]
                     },
@@ -4461,6 +4649,16 @@
                           "parameters": [
                             "flavor_set",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "\"    KIWI\""
                           ]
                         }
                       ]
@@ -4507,6 +4705,16 @@
                             "flavor_set",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "\"  VANILLA\""
+                          ]
                         }
                       ]
                     },
@@ -4531,6 +4739,66 @@
                           "parameters": [
                             "flavor_set",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "flavor_chosen.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Opacity"
+                          },
+                          "parameters": [
+                            "flavor_blocker",
+                            "=",
+                            "120"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::Opacity"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "=",
+                            "200"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectOpacityTween"
+                          },
+                          "parameters": [
+                            "text_flavor",
+                            "Tween",
+                            "\"fade0\"",
+                            "0",
+                            "\"linear\"",
+                            "2000",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectOpacityTween"
+                          },
+                          "parameters": [
+                            "flavor_blocker",
+                            "Tween",
+                            "\"fade1\"",
+                            "0",
+                            "\"linear\"",
+                            "1500",
+                            ""
                           ]
                         }
                       ]
@@ -4709,7 +4977,7 @@
                       "parameters": [
                         "text_support",
                         "=",
-                        "VariableString(support_phrases[RandomInRange(0,3)])"
+                        "VariableString(support_phrases[RandomInRange(0,5)])"
                       ]
                     },
                     {
@@ -4948,7 +5216,12 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "b": 209,
@@ -12097,7 +12370,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.54,
+        "zoomFactor": 0.6600000000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12230,22 +12503,6 @@
           "x": 265,
           "y": 25,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "UI_lives",
-          "persistentUuid": "8083cc24-56e8-47a1-84bf-e065244fdebc",
-          "width": 0,
-          "x": 342,
-          "y": 68,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12470,6 +12727,22 @@
           "x": -53,
           "y": -37,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "UI_lives",
+          "persistentUuid": "4b7f6b93-2f6b-4269-a440-ac40393eb365",
+          "width": 160,
+          "x": 301,
+          "y": 63,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13290,18 +13563,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "UI_lives",
-          "tags": "",
-          "texture": "assets\\Strawberry.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "assetStoreId": "e26c3feaa866cf2ae309981046b782ad51562fca555001b654183820af8188ba",
           "name": "control_right",
           "tags": "",
@@ -13660,6 +13921,18 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "UI_lives",
+          "tags": "",
+          "texture": "Mochicon0-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -14086,7 +14359,7 @@
                   "parameters": [
                     "UI_lives",
                     "=",
-                    "GlobalVariable(lives) * 16"
+                    "GlobalVariable(lives) * 32"
                   ]
                 }
               ]
@@ -15670,7 +15943,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9600000000000002,
+        "zoomFactor": 0.9400000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15987,22 +16260,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 17,
-          "layer": "",
-          "locked": false,
-          "name": "UI_lives",
-          "persistentUuid": "ae0fca41-f5d4-42b9-9c12-e39e73810b28",
-          "width": 17,
-          "x": 317,
-          "y": 70,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -16013,6 +16270,22 @@
           "x": 653,
           "y": 12,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "UI_lives",
+          "persistentUuid": "500b60bb-4b75-4512-a361-964955868c32",
+          "width": 0,
+          "x": 294,
+          "y": 70,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17034,18 +17307,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
-          "name": "UI_lives",
-          "tags": "",
-          "texture": "assets\\Strawberry.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
           "name": "broken_lever",
           "tags": "",
           "type": "Sprite",
@@ -17244,6 +17505,18 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "UI_lives",
+          "tags": "",
+          "texture": "Mochicon0-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -17920,7 +18193,7 @@
                   "parameters": [
                     "UI_lives",
                     "=",
-                    "GlobalVariable(lives) * 16"
+                    "GlobalVariable(lives) * 32"
                   ]
                 }
               ]
@@ -19314,7 +19587,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6899999999999995,
+        "zoomFactor": 0.6499999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19371,22 +19644,6 @@
           "x": 420.9583435058594,
           "y": 59.63982009887695,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "UI_lives",
-          "persistentUuid": "cfc499f4-ff70-4d34-82ea-e33ef410dddf",
-          "width": 0,
-          "x": 342,
-          "y": 6,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19451,6 +19708,22 @@
           "x": 249,
           "y": 175,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "UI_lives",
+          "persistentUuid": "08ab2505-572d-4843-b9ce-62377efae078",
+          "width": 160,
+          "x": 305,
+          "y": 0,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20275,18 +20548,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
-          "name": "UI_lives",
-          "tags": "",
-          "texture": "assets\\Strawberry.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
           "name": "baseball",
           "tags": "",
           "type": "Sprite",
@@ -20598,6 +20859,18 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "UI_lives",
+          "tags": "",
+          "texture": "Mochicon0-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -20949,6 +21222,16 @@
                     "",
                     "\"minigame\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "UI_lives",
+                    "=",
+                    "GlobalVariable(lives) * 32"
+                  ]
                 }
               ]
             },
@@ -21011,18 +21294,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TiledSpriteObject::Width"
-                  },
-                  "parameters": [
-                    "UI_lives",
-                    "=",
-                    "GlobalVariable(lives) * 16"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
